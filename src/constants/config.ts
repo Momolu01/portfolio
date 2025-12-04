@@ -40,50 +40,51 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: 'VMCB',
+    fullName: 'Victor Manuel Cortes Balanta',
+    email: 'victormcb0012@outlook.com',
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: 'Victor M. Cortes',
+    p: ['Desarrollo', 'software y aplicationes web.'],
   },
   contact: {
-    p: "Get in touch",
-    h2: "Contact.",
+    p: 'Contáctame',
+    h2: 'Contanto.',
     form: {
       name: {
-        span: "Your Name",
-        placeholder: "What's your name?",
+        span: 'Nombre',
+        placeholder: "¿Cuál es tu nombre?",
       },
-      email: { span: "Your Email", placeholder: "What's your email?" },
+      email: { span: 'Email', placeholder: "¿Cual es tu email?" },
       message: {
-        span: "Your Message",
-        placeholder: "What do you want to say?",
+        span: 'Mensaje',
+        placeholder: '¿Deja tu mensaje?',
       },
     },
   },
   sections: {
     about: {
-      p: "Introduction",
-      h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      p: 'Introducción',
+      h2: 'Descripción profesional.',
+      content: `Soy un hábil desarrollador de software con experiencia en JavaScript y Node.JS,
+      con experticia en el diseño e implementación de sistemas distribuidos escalables,
+      APIs RESTful y arquitecturas basadas en microservicios.
+      Autodidacta analítico orientado al logro de desarrollo de proyectos
+      que satisfagan las necesidades y experiencias de mis clientes, y el explorar nuevos
+      conocimientos, personas y experiencias en este proceso.`,
     },
     experience: {
-      p: "What I have done so far",
-      h2: "Work Experience.",
+      p: 'Lo que he hecho hasta ahora',
+      h2: 'Experiencia.',
     },
     feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
+      p: 'What others say',
+      h2: 'Testimonials.',
     },
     works: {
-      p: "My work",
-      h2: "Projects.",
+      p: 'Mis trabajos',
+      h2: 'Proyectos.',
       content: `Following projects showcases my skills and experience through
     real-world examples of my work. Each project is briefly described with
     links to code repositories and live demos in it. It reflects my
