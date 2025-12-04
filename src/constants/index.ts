@@ -38,7 +38,7 @@ export const navLinks: TNavLink[] = [
   },
   {
     id: 'work',
-    title: 'Proyectos',
+    title: 'Mi trabajo',
   },
   {
     id: 'contact',
@@ -48,16 +48,16 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: 'Web',
+    title: 'Aplicaiones Web',
     icon: web,
   },
   {
-    title: 'React',
-    icon: mobile,
+    title: 'Desarrollo Backend',
+    icon: backend,
   },
   {
-    title: 'Backend',
-    icon: backend,
+    title: 'Cloud Computing',
+    icon: mobile,
   },
   {
     title: 'Arquitectura de software',
